@@ -7,7 +7,7 @@
 Click on the template of your choice, and create your valentine pages under 1 minute. : https://i143.xyz/templates
 
 - **100% Free**. 🆓
-- Easy to Use. **No Codeing** required. 🎉
+- Easy to Use. **No Coding** required. 🎉
 - With **custom subdomain** of your choice (Obviously not claimed by anyone else). 🌍
 - With **custom texts** of your choice. 💬
 - With **custom images** of your choice. 👩‍❤️‍👨
@@ -15,7 +15,7 @@ Click on the template of your choice, and create your valentine pages under 1 mi
 
 
 # Demo
-Github Pages : https://saurabhnemade.github.io/will-you-be-my-valentine/
+Github Pages : https://alxdolphin.github.io/k-will-you-be-my-valentine/
 
 
 # Description
@@ -37,6 +37,9 @@ pnpm run dev
 
 
 # How to deploy it
+
+The site deploys automatically to GitHub Pages when you push to `main` (see [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml)). To deploy manually from your machine:
+
 ```
 pnpm run deploy
 ```

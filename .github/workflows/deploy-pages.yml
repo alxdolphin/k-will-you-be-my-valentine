@@ -29,6 +29,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Set GitHub Pages base path in Vite config
+        run: |
+          sed -i 's|base:.*|  base: "/k-will-you-be-my-valentine/",|' vite.config.ts
+          cat vite.config.ts
+
       - name: Build
         run: pnpm run build
 
