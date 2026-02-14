@@ -44,6 +44,8 @@ The site deploys automatically to GitHub Pages when you push to `main` (see [.gi
 pnpm run deploy
 ```
 
+**If the live site is blank:** In the repo go to **Settings → Pages**. Set **Source** to **"GitHub Actions"** (not "Deploy from a branch"). Save, then open **Actions** → "Deploy to GitHub Pages" → **Run workflow**. The site will be at `https://alxdolphin.github.io/k-will-you-be-my-valentine/`.
+
 # Reporting Issues
 
 You can report issues directly at saurabh@agnt.dev
